@@ -52,3 +52,7 @@ progress.addEventListener('click', scrub);
 progress.addEventListener('mousemove', (e) => progressMouseDown && scrub(e));
 progress.addEventListener('mousedown', () => progressMouseDown = true);
 progress.addEventListener('mouseup', () => progressMouseDown = false);
+
+// ToDo:
+// [] Range update only on mousedown
+// [] Fullscreen button
