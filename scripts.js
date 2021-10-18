@@ -13,7 +13,7 @@ function togglePlay() {
 	if ( video.paused ) {
 		video.play();
 	} else {
-		cideo.pause();
+		video.pause();
 	}
 }
 
