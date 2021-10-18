@@ -9,5 +9,12 @@ const skipButtons = controls.querySelectorAll('[data-skip]');
 const ranges      = controls.querySelectorAll('.player__slider');
 
 // Build functions
+function togglePlay() {
+	if ( video.paused ) {
+		video.play();
+	} else {
+		cideo.pause();
+	}
+}
 
 // Hook up the event listeners
